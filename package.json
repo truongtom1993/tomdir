@@ -1,0 +1,24 @@
+{
+  "name": "tomdir",
+  "version": "1.0.6",
+	"type": "module",
+  "description": "CLI in ra cây thư mục",
+  "main": "lib/index.js",
+  "bin": {
+    "tomdir": "bin/tomDir.js"
+  },
+  "scripts": {
+    "start": "node bin/tomDir.js"
+  },
+  "keywords": [
+    "directory",
+    "structure",
+    "cli"
+  ],
+  "author": "truongtom1993",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "readline": "^1.3.0"
+  }
+}
